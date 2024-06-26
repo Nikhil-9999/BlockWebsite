@@ -16,6 +16,7 @@
 		31B5E98A2C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9892C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift */; };
 		31B5E9982C2C180F005394AF /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9972C2C180F005394AF /* MoreView.swift */; };
 		31B5E99A2C2C1851005394AF /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9992C2C1851005394AF /* AddItemView.swift */; };
+		31B5E99C2C2C1936005394AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E99B2C2C1936005394AF /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		31B5E9892C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockWebsiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		31B5E9972C2C180F005394AF /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		31B5E9992C2C1851005394AF /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		31B5E99B2C2C1936005394AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				31B5E9972C2C180F005394AF /* MoreView.swift */,
 				31B5E9992C2C1851005394AF /* AddItemView.swift */,
+				31B5E99B2C2C1936005394AF /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				31B5E96F2C2C1396005394AF /* ContentView.swift in Sources */,
 				31B5E9982C2C180F005394AF /* MoreView.swift in Sources */,
 				31B5E96D2C2C1396005394AF /* BlockWebsiteApp.swift in Sources */,
+				31B5E99C2C2C1936005394AF /* HomeView.swift in Sources */,
 				31B5E99A2C2C1851005394AF /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
