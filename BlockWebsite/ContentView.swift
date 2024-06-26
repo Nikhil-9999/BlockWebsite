@@ -36,14 +36,22 @@ struct ContentView: View {
                 
                 VStack {
                     HStack {
-                        Text("Block Sites")
-                            .font(.largeTitle)
-                            .fontWeight(.semibold)
+                        Spacer()
                         
                         Button(action: {}, label: {
                             Text("UPGRADE")
                         })
-                    }
+                        .frame(width: 100, height: 30)
+                        .background(Color(.systemPink))
+                        .cornerRadius(5)
+                        .foregroundStyle(Color(.white))
+                        
+                    }.padding(.trailing)
+                    
+                    Text("Block Sites")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    
                     
                     
                     
