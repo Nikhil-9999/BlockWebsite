@@ -53,9 +53,6 @@ struct ContentView: View {
                         .fontWeight(.semibold)
                     
                     
-                    
-                    
-                    
                     TabView {
                         HomeView()
                             .tabItem {

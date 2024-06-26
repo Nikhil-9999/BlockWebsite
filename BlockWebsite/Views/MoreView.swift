@@ -18,6 +18,7 @@ struct MoreView: View {
                             
                         } label: {
                             Image(systemName: "person.crop.square.fill")
+                                .foregroundStyle(Color(.brown))
                                 .padding(10)
                             Text("Log In or Sign Up")
                         }
@@ -29,6 +30,7 @@ struct MoreView: View {
                             //code
                         } label: {
                             Image(systemName: "ellipsis.rectangle.fill")
+                                .foregroundStyle(Color(.systemTeal))
                                 .padding(10)
                             Text("Password Protection")
                         }
@@ -57,6 +59,7 @@ struct MoreView: View {
                             //code
                         } label: {
                             Image(systemName: "bubble.right.fill")
+                                .foregroundStyle(Color(.green))
                                 .padding(10)
                             Text("Feedback")
                         }
@@ -65,6 +68,7 @@ struct MoreView: View {
                             //code
                         } label: {
                             Image(systemName: "questionmark.circle.fill")
+                                .foregroundStyle(Color(.blue))
                                 .padding(10)
                             Text("Contact Us")
                         }
@@ -73,6 +77,7 @@ struct MoreView: View {
                             //code
                         } label: {
                             Image(systemName: "heart.fill")
+                                .foregroundStyle(Color(.red))
                                 .padding(10)
                             Text("Share BlockWebsite")
                         }
@@ -81,6 +86,7 @@ struct MoreView: View {
                             //code
                         } label: {
                             Image(systemName: "star.fill")
+                                .foregroundStyle(Color(.yellow))
                                 .padding(10)
                             Text("Rate Us")
                         }
