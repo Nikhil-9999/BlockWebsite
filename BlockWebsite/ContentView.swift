@@ -35,9 +35,18 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Text("Block Sites")
-                        .font(.largeTitle)
-                        .fontWeight(.semibold)
+                    HStack {
+                        Text("Block Sites")
+                            .font(.largeTitle)
+                            .fontWeight(.semibold)
+                        
+                        Button(action: {}, label: {
+                            Text("UPGRADE")
+                        })
+                    }
+                    
+                    
+                    
                     
                     TabView {
                         HomeView()
