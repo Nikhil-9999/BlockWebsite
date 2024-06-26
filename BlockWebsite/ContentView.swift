@@ -34,12 +34,37 @@ struct ContentView: View {
                 Color(.cyan)
                     .ignoresSafeArea()
                 
-                VStack{
-                    Text("Welcome")
+                VStack {
+                    Text("Block Sites")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    
+                    TabView {
+                        HomeView()
+                            .tabItem {
+                                Image(systemName: "house")
+                                Text("Home")
+                            }
+                        
+                        AddItemView()
+                            .tabItem {
+                                Image(systemName: "plus.app.fill")
+                                Text("Add Items")
+                            }
+                        
+                        MoreView()
+                            .tabItem {
+                                Image(systemName: "ellipsis.circle")
+                                Text("More")
+                            }
+                    }.onAppear() {
+                        UITabBar.appearance().backgroundColor = .systemGray6
+                    }
+                    
+                    
                 }
             }
-            
-        }.ignoresSafeArea()
+        }
         
     }
 }
