@@ -14,6 +14,7 @@
 		31B5E97E2C2C1397005394AF /* BlockWebsiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E97D2C2C1397005394AF /* BlockWebsiteTests.swift */; };
 		31B5E9882C2C1397005394AF /* BlockWebsiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9872C2C1397005394AF /* BlockWebsiteUITests.swift */; };
 		31B5E98A2C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9892C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift */; };
+		31B5E9982C2C180F005394AF /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E9972C2C180F005394AF /* MoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		31B5E9832C2C1397005394AF /* BlockWebsiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockWebsiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B5E9872C2C1397005394AF /* BlockWebsiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockWebsiteUITests.swift; sourceTree = "<group>"; };
 		31B5E9892C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockWebsiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31B5E9972C2C180F005394AF /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				31B5E96C2C2C1396005394AF /* BlockWebsiteApp.swift */,
 				31B5E96E2C2C1396005394AF /* ContentView.swift */,
+				31B5E9962C2C17E2005394AF /* Views */,
 				31B5E9702C2C1397005394AF /* Assets.xcassets */,
 				31B5E9722C2C1397005394AF /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				31B5E9892C2C1397005394AF /* BlockWebsiteUITestsLaunchTests.swift */,
 			);
 			path = BlockWebsiteUITests;
+			sourceTree = "<group>";
+		};
+		31B5E9962C2C17E2005394AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31B5E9972C2C180F005394AF /* MoreView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B5E96F2C2C1396005394AF /* ContentView.swift in Sources */,
+				31B5E9982C2C180F005394AF /* MoreView.swift in Sources */,
 				31B5E96D2C2C1396005394AF /* BlockWebsiteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
