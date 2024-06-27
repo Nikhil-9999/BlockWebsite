@@ -9,7 +9,20 @@ import SwiftUI
 
 struct AddItemView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: "plus.app.fill")
+                    .resizable()
+                    .frame(width: 55, height: 55)
+                    .foregroundStyle(Color(.cyan))
+                    .padding(20)
+            })
+            
+        }
     }
 }
 
