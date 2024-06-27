@@ -18,6 +18,18 @@ struct HomeView: View {
             Text("Tap the button to create block list")
                 .font(.subheadline)
                 .fontWeight(.light)
+                .padding()
+            
+            Button {
+                //code
+            } label: {
+                Text("Block Something")
+                    .frame(width: 150, height: 50)
+                    .background(Color(.cyan))
+                    .cornerRadius(20)
+                    .foregroundStyle(Color(.white))
+            }
+
         }
         
     }
