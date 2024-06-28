@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		311CF1412C2F0B1F0038B35D /* AddWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CF1402C2F0B1F0038B35D /* AddWebsite.swift */; };
+		311CF1432C2F0BDF0038B35D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CF1422C2F0BDF0038B35D /* PopupView.swift */; };
 		31B5E96D2C2C1396005394AF /* BlockWebsiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E96C2C2C1396005394AF /* BlockWebsiteApp.swift */; };
 		31B5E96F2C2C1396005394AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E96E2C2C1396005394AF /* ContentView.swift */; };
 		31B5E9712C2C1397005394AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B5E9702C2C1397005394AF /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		311CF1402C2F0B1F0038B35D /* AddWebsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWebsite.swift; sourceTree = "<group>"; };
+		311CF1422C2F0BDF0038B35D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		31B5E9692C2C1396005394AF /* BlockWebsite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockWebsite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B5E96C2C2C1396005394AF /* BlockWebsiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockWebsiteApp.swift; sourceTree = "<group>"; };
 		31B5E96E2C2C1396005394AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				31B5E9972C2C180F005394AF /* MoreView.swift */,
 				31B5E9992C2C1851005394AF /* AddItemView.swift */,
 				31B5E99B2C2C1936005394AF /* HomeView.swift */,
+				311CF1422C2F0BDF0038B35D /* PopupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311CF1432C2F0BDF0038B35D /* PopupView.swift in Sources */,
 				31B5E96F2C2C1396005394AF /* ContentView.swift in Sources */,
 				31B5E9982C2C180F005394AF /* MoreView.swift in Sources */,
 				31B5E96D2C2C1396005394AF /* BlockWebsiteApp.swift in Sources */,
