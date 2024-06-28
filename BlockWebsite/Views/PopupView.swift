@@ -17,6 +17,8 @@ struct PopupView: View {
     var body: some View {
         VStack {
             TextField("Website", text: .constant(""))
+                .autocorrectionDisabled()
+                .textInputAutocapitalization(.never)
 
             Divider()
             
