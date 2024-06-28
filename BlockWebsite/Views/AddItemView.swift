@@ -17,7 +17,7 @@ struct AddItemView: View {
                 VStack {
                     List {
                         ForEach(items) { item in
-                            Text("\(item.Web)")
+                            Text(item.Web)
                         }
                     }
                     
