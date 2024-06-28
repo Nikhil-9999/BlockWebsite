@@ -12,7 +12,32 @@ struct PopupView: View {
     @Environment (\.modelContext) var context
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Website", text: .constant(""))
+
+            Divider()
+            
+            HStack {
+                Button("Add") {
+                    withAnimation {
+                        //code
+                    }
+                }
+                .frame(width: 120, height: 50)
+                .background(Color(.cyan))
+                .cornerRadius(20)
+                .foregroundColor(.white)
+                
+                Button("Dismiss") {
+                    dismiss()
+                }
+                .frame(width: 120, height: 50)
+                .background(Color(.purple))
+                .cornerRadius(20)
+                .foregroundColor(.white)
+            }
+        }
+        .padding()
     }
 }
 
